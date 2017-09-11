@@ -28,5 +28,7 @@ The Final features we used to predict the sale price are
 3. Age(SaleYear-YearMade)
 4. ProductGroup (dummified -- total 6 cols)
 5. ProductSize (dummified -- total 5 cols)
+6. Enclosure (dummified -- total 3 cols)
 
-WE obtained the Rsquared value of 0.36.
+Note that features were removed from the model if the p-value is not small ( < 0.05)
+The final model gave the Rsquared value of 0.63.
