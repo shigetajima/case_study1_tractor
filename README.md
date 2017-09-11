@@ -1,5 +1,5 @@
-# case_study1_tructor
-Estimate the pricing of used tructors
+# case_study1_tractor
+Estimate the pricing of used tractors
 
 
 ## Overview
@@ -16,7 +16,7 @@ There are 52 features and 400,000 observations in the data set.
 Cleaning was done to account for missing and improperly entered data.
 Columns with too many NaNs were removed from our analysis.
 
-Features that are not useful for predicting the tructor price include Data source, transmission, blade extension, engine horsepower, hydraulics, drive system, usage band.
+Features that are not useful for predicting the tractor price include Data source, transmission, blade extension, engine horsepower, hydraulics, drive system, usage band.
 
 ## Model and analysis
 We used linear regression which seems to give the best result.
