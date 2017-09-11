@@ -30,5 +30,5 @@ The Final features we used to predict the sale price are
 5. ProductSize (dummified -- total 5 cols)
 6. Enclosure (dummified -- total 3 cols)
 
-Note that features were removed from the model if the p-value is not small ( < 0.05)
-The final model gave the Rsquared value of 0.63.
+Note that features were removed from the model if the p-value is not small ( < 0.05).
+The final model gave the Adj. R-squared value of 0.63.
